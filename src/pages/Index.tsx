@@ -80,7 +80,7 @@ const LandingPage = () => {
 
       {/* Footer */}
       <footer className="text-center py-6 text-xs text-muted-foreground border-t border-border/30">
-        <p>MADE BY : Vidushi Mehra (LunaTech)</p>
+        <p>© 2026 LunaScan by Vidushi Mehra.</p>
       </footer>
     </div>
   );
