@@ -79,8 +79,9 @@ const LandingPage = () => {
       </main>
 
       {/* Footer */}
-      <footer className="text-center py-6 text-xs text-muted-foreground border-t border-border/30">
-        Built with precision. Not paranoia.
+      <footer className="text-center py-6 text-xs text-muted-foreground border-t border-border/30 space-y-1">
+        <p>Built with precision. Not paranoia.</p>
+        <p>© {new Date().getFullYear()} Vidushi Mehra (LunaTech)</p>
       </footer>
     </div>
   );
