@@ -1,73 +1,89 @@
-# Welcome to your Lovable project
+# LunaScan 
+Lightweight Web Vulnerability Assessment Tool
 
-## Project info
+LunaScan is a modular full-stack web application designed to perform automated security assessments on web applications. It focuses on lightweight scanning, security header analysis, and basic reflected XSS detection in a clean, modern interface.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+##  Features
 
-There are several ways of editing your application.
+* 🔎 Automated URL crawling
+* 🛡️ Security header analysis
+* ⚠️ Basic reflected XSS detection
+* 📜 Scan history tracking
+* 🎨 Minimal dark UI with TailwindCSS
+* ⚡ Fast and lightweight architecture
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+##  Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+### Frontend
 
-**Use your preferred IDE**
+* React (Vite / Next.js)
+* TailwindCSS
+* Minimal animations
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Backend
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* Node.js (if applicable)
+* Express / API Routes
+* REST-based architecture
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+##  How It Works
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1. User enters a target URL.
+2. Application performs:
 
-# Step 3: Install the necessary dependencies.
-npm i
+   * Header inspection
+   * Basic crawling
+   * XSS payload reflection tests
+3. Results are categorized by severity.
+4. Scan summary is displayed in a structured report format.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+---
+
+##  Project Structure
+
+```
+/src
+  /components
+  /pages or /app
+  /utils
+  /services
+/public
+package.json
+tailwind.config.js
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+##  Disclaimer
 
-**Use GitHub Codespaces**
+This tool is intended **strictly for educational and authorized security testing purposes only**.
+Do not scan websites without proper permission.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+##  Future Improvements
 
-This project is built with:
+* Advanced XSS payload detection
+* SQL Injection checks
+* Authentication vulnerability testing
+* Rate limiting detection
+* Report export (PDF)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+##  Author
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Vidushi Mehra(LunaTech)
+Cybersecurity & Full Stack Developer
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 📄 License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+MIT License
